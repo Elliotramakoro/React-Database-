@@ -1,0 +1,169 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif; /* Sets the main font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+/* Form container styling */
+.form-container {
+  max-width: 400px; /* Max width for the form */
+  margin: 50px auto; /* Centers form with margin */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  text-align: center; /* Center-aligns form title */
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column; /* Arranges form elements in a column */
+}
+
+/* Input fields styling */
+.form-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px;
+}
+
+/* Form button styling */
+.form-container button {
+  padding: 10px;
+  background-color: #4CAF50; /* Green button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adds smooth color transition */
+}
+
+.form-container button:hover {
+  background-color: #45a049; /* Darkens on hover */
+}
+
+/* Center-aligned text at the bottom of the form */
+.form-container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Header styling */
+.App-header {
+  background-color: #333; /* Dark background */
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1em 0;
+}
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effects */
+}
+
+button:hover {
+  background-color: #777; /* Lighter color on hover */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Section container styling */
+.section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Password input styling */
+.password-container {
+  display: flex;
+  align-items: center; /* Aligns items in the center */
+}
+
+.show-password-button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Footer styling */
+.App-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Error message styling */
+.error {
+  color: red; /* Red color for errors */
+}
+
+/* Table styling */
+table {
+  width: 100%; /* Full-width table */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Light border */
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+/* Dashboard-specific styling */
+.low-stock {
+  background-color: #ffdddd; /* Red background for low stock warning */
+  color: #d9534f;
+}
+
+/* Action button styling */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Action button group styling */
+.action-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Smaller space between buttons in each group */
+}
+
+.action-group button {
+  padding: 5px 10px;
+  font-size: 0.9rem; /* Smaller font size for buttons */
+}
